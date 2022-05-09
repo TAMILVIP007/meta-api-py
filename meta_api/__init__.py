@@ -5,11 +5,11 @@ class META():
     def __init__(self):
         self.url = "https://metavoid.vercel.app/api"
 
-    def  anime(self, anime_name, nsfw=None):
+    def  animeimage(self, anime_name, nsfw=None):
         try:
             if nsfw:
                 url = f"{self.url}/animeimage/nsfw/{anime_name}"
-            url = f"{self.url}/animeimage/{anime_name}"
+            url = f"{self.url}/animeimage/sfw/{anime_name}"
             response = get(url, timeout=5)
             return response.json()
         except  Exception as e:
