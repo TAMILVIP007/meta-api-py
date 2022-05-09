@@ -16,7 +16,7 @@ setuptools.setup(
     url='https://github.com/TAMILVIP007/meta_api.git',
     packages=setuptools.find_packages(),
     classifiers=[
-        'Development Status :: 4 - Alpha',
+        'Development Status :: 4 - alpha',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: Implementation :: CPython',
