@@ -23,4 +23,4 @@ x = META()
 print(x.wallpaper("RED ANIME"))
 ```
 
-<i>Checlout more at <a href="github.com/tamilvip007/meta_api/blob/master/main.py">main.py</a></i>
+<i>Checkout more at <a href="meta_api/__init__.py">\__init__.py</a></i>
